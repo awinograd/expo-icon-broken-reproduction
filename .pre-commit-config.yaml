@@ -1,0 +1,9 @@
+repos:
+-   repo: https://github.com/prettier/prettier
+    sha: 1.10.2
+    hooks:
+    -   id: prettier
+-   repo: git://github.com/alexjurkiewicz/pre-commit-tslint
+    sha: 'v1.0'
+    hooks:
+    -   id: tslint
